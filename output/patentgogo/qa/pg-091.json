@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-091",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "monitoring-criteria-공개공보와 연속 출원",
+    "subtitle_pattern_signature": "criteria-보류 기준",
+    "opening_frame": "경쟁사 공개공보를 주기적으로 확인하는 상황에서는 자료를 더 모으기보다 즉",
+    "section_role_sequence": "즉시 알림 대상과 월간 검토 대상을 나누는 순간 판단 전에 지울 결론 > '공개공보와 연속 출원' 범위를 나누는 기준 > 신규 공개 모니터링표에 남길 보류 기준 > 공식 출처로 경쟁사 모니터링 다시 확인하기 > 연속 출원을 새 기술 신호와 반복 출원 신호로 구분하지 않는 문제가 생기는 경계 > 경쟁사 신규 공개를 놓치지 않으려는 모니터링 담당자의 상황의 다음 메모",
+    "visual_sequence": "decision-box,checklist-box,official-link-card",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

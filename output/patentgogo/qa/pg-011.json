@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-011",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "ipc-cpc-map-criteria-H01M 배터리 분류",
+    "subtitle_pattern_signature": "criteria-보류 기준",
+    "opening_frame": "H01M 문헌을 소재·장치·공정으로 다시 나누는 상황에서는 자료를 더 모",
+    "section_role_sequence": "분류 코드를 검색 축으로 쓸지 보조 축으로 둘지 판단 전에 지울 결론 > 'H01M 배터리 분류' 범위를 나누는 기준 > IPC CPC 분류표에 남길 보류 기준 > 공식 출처로 IPC와 CPC 다시 확인하기 > 상위 분류만 보고 다른 기술군을 같은 묶음으로 넣는 문제가 생기는 경계 > 배터리 문헌을 분류 코드 기준으로 선별해야 하는 상황의 다음 메모",
+    "visual_sequence": "decision-box,checklist-box,official-link-card",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

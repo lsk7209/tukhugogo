@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-088",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "portfolio-comparison-출원 집중도와 등록률",
+    "subtitle_pattern_signature": "comparison-권리 신호 비교",
+    "opening_frame": "포트폴리오 공백표는 숫자를 보기 좋게 놓는 표가 아니라 서로 다른 근거를",
+    "section_role_sequence": "포트폴리오 공백표에서 섞지 말아야 할 값 > 출원 집중도와 등록률과 기업 포트폴리오 비교 축 > 포트폴리오 공백표에서 '권리 신호 비교' 우선 검토와 보류 기준 > '핵심 출원인과 공백' 비교표 반영 방법 > 기업별 출원 집중도와 등록률을 같은 대시보드에 놓는 상황에서 출처별 차이를 공식 원문으로 맞추는 법 > 핵심 출원인과 빈 영역을 따로 표시할지 정하는 순간 뒤에 남길 질문",
+    "visual_sequence": "comparison-table,decision-box,risk-labels",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

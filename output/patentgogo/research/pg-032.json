@@ -1,0 +1,153 @@
+{
+  "article_id": "pg-032",
+  "title": "특허 명세서 준비 실수 방지: 실험예와 비교예 누락을 줄이는 법",
+  "article_research_question": "특허 명세서 준비 실수 방지에서 독자가 재현 가능한 검색 기록을 만들려면 어떤 공식 출처와 제외 기준이 필요한가?",
+  "reader_outcome": "발명 설명 자료를 변리사에게 넘기기 전 점검하는 상황",
+  "original_contribution": {
+    "type": "decision_framework",
+    "description": "실험예와 비교예과 검색 누락 방지을 분리해 판단 보류 기준을 만든다.",
+    "source_ids": [
+      "kipo",
+      "patentgo",
+      "kipris"
+    ]
+  },
+  "ymyl_category": "legal",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "research_runs": [
+    {
+      "query": "특허 명세서 준비 실수 방지 KIPRIS",
+      "date": "2026-06-28",
+      "purpose": "official source check"
+    },
+    {
+      "query": "특허 명세서 준비 실수 방지 특허청 특허로",
+      "date": "2026-06-28",
+      "purpose": "procedure source check"
+    },
+    {
+      "query": "특허 명세서 준비 실수 방지 WIPO IPC PATENTSCOPE",
+      "date": "2026-06-28",
+      "purpose": "international source check"
+    }
+  ],
+  "sources": [
+    {
+      "id": "kipo",
+      "title": "특허청",
+      "url": "https://www.kipo.go.kr/",
+      "publisher": "특허청",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "특허 명세서 준비 실수 방지의 실수 방지 기준 확인"
+    },
+    {
+      "id": "patentgo",
+      "title": "특허로",
+      "url": "https://www.patent.go.kr/",
+      "publisher": "특허청",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "특허 명세서 준비 실수 방지의 실수 방지 기준 확인"
+    },
+    {
+      "id": "kipris",
+      "title": "KIPRIS 특허정보검색서비스",
+      "url": "https://www.kipris.or.kr/",
+      "publisher": "KIPRIS",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "특허 명세서 준비 실수 방지의 실수 방지 기준 확인"
+    },
+    {
+      "id": "uspto-center",
+      "title": "USPTO Patent Center",
+      "url": "https://patentcenter.uspto.gov/",
+      "publisher": "USPTO",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "특허 명세서 준비 실수 방지의 실수 방지 기준 확인"
+    },
+    {
+      "id": "espacenet",
+      "title": "Espacenet",
+      "url": "https://worldwide.espacenet.com/",
+      "publisher": "EPO",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "특허 명세서 준비 실수 방지의 실수 방지 기준 확인"
+    },
+    {
+      "id": "google-patents",
+      "title": "Google Patents",
+      "url": "https://patents.google.com/",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "특허 명세서 준비 실수 방지의 실수 방지 기준 확인"
+    },
+    {
+      "id": "case-spec-writing",
+      "title": "US10658654B2 - Composite anode active material, anode including the same, and lithium secondary battery including the anode",
+      "url": "https://patents.google.com/patent/US10658654B2/en",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "특허 명세서 준비 실수 방지의 문헌 미니케이스와 실험예·비교예를 명세서 근거로 정리할 때 소재 구조를 분리해야 하는 사례"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "특허 문헌 확인은 공식 원문과 공개·등록 상태 확인이 필요하다.",
+      "source_id": "kipo",
+      "claim_type": "procedure",
+      "supports_section": "'효과 입증 자료' 오해를 되돌리는 순서"
+    },
+    {
+      "claim": "IPC는 기술 분야 탐색 축이며 청구항 해석을 대체하지 않는다.",
+      "source_id": "kipo",
+      "claim_type": "definition",
+      "supports_section": "효과 입증 자료표를 공식 출처로 다시 맞출 체크리스트"
+    },
+    {
+      "claim": "US10658654B2는 Samsung Electronics Co Ltd.의 공개 문헌 예시로 실험예·비교예를 명세서 근거로 정리할 때 소재 구조를 분리해야 하는 사례에 사용했다.",
+      "source_id": "case-spec-writing",
+      "claim_type": "named_entity",
+      "supports_section": "'실험예와 비교예' 누락을 부르는 습관"
+    }
+  ],
+  "source_interpretation": "실수 방지 관점에서 실험예와 비교예과 검색 누락 방지을 분리해 읽도록 출처 역할을 나눴다.",
+  "article_specific_details": [
+    {
+      "claim": "'실험예와 비교예' 항목은 '효과 입증 자료' 때문에 검색 기준을 별도로 둬야 한다.",
+      "source_id": "kipo"
+    },
+    {
+      "claim": "명세서 준비 문헌은 국내 검색과 해외 패밀리 확인의 역할이 다르다.",
+      "source_id": "patentgo"
+    },
+    {
+      "claim": "US10658654B2 미니케이스는 명세서 준비 클러스터에서만 실험예·비교예를 명세서 근거로 정리할 때 소재 구조를 분리해야 하는 사례를 설명한다.",
+      "source_id": "case-spec-writing"
+    }
+  ],
+  "competitor_gap": "상위 검색 결과는 검색 절차 요약이 많고, 출처별 역할·제외 기준·판단 보류 항목을 함께 적는 글은 부족하다.",
+  "unique_angle": "특허 명세서 준비의 실수 방지 검토이며 비용·침해·사업성 판단은 제외하는 것",
+  "fact_traceability_pass": true,
+  "unresolved_claims": []
+}

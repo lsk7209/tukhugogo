@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-021",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "prior-art-criteria-출원 전 공개 문헌",
+    "subtitle_pattern_signature": "criteria-보류 기준",
+    "opening_frame": "출원 전 공개 문헌을 찾고 명세서 방향을 바꾸는 상황에서는 자료를 더 모",
+    "section_role_sequence": "출원을 진행할지 보완 실험을 먼저 할지 판단 전에 지울 결론 > '출원 전 공개 문헌' 범위를 나누는 기준 > 선행기술 근거표에 남길 보류 기준 > 공식 출처로 선행기술 조사 다시 확인하기 > 논문과 특허 원문을 같은 강도의 근거로 처리하는 문제가 생기는 경계 > 아이디어 공개 전 선행기술을 확인하는 연구자가 판단하는 상황의 다음 메모",
+    "visual_sequence": "decision-box,checklist-box,official-link-card",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

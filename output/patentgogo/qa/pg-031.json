@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-031",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "spec-writing-criteria-실험예와 비교예",
+    "subtitle_pattern_signature": "criteria-보류 기준",
+    "opening_frame": "실험예와 비교예를 명세서 근거로 정리하는 상황에서는 자료를 더 모으기보다",
+    "section_role_sequence": "보완 실험이 필요한지 문장 정리로 충분한지 판단 전에 지울 결론 > '실험예와 비교예' 범위를 나누는 기준 > 효과 입증 자료표에 남길 보류 기준 > 공식 출처로 명세서 준비 다시 확인하기 > 효과 자료가 부족한데 표현만 강하게 쓰는 문제가 생기는 경계 > 발명 설명 자료를 변리사에게 넘기기 전 점검하는 상황의 다음 메모",
+    "visual_sequence": "decision-box,checklist-box,official-link-card",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

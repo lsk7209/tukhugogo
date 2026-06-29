@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-010",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "applicant-normalization-situation-계열사 사명 변경",
+    "subtitle_pattern_signature": "situation-상황별 판단",
+    "opening_frame": "기업 포트폴리오를 정리하는 실무자가 법인명을 대조하는 상황에서는 같은 문",
+    "section_role_sequence": "기업 포트폴리오를 정리하는 실무자가 법인명을 대조하는 상황에서 질문을 나누는 이유 > '계열사 사명 변경' 보는 세 가지 경우 > 기업 포트폴리오를 정리하는 실무자가 법인명을 대조하는 상황에서 상황별 판단이 달라지는 분기점 > '국문·영문 표기' 질문별 해석법 > 출원인명 매핑표 기준으로 공식 출처에서 공통 확인할 항목 > 동일 출원인으로 합산할지 별도 법인으로 남길지 정하는 순간에 맞는 다음 행동",
+    "visual_sequence": "scenario-branch-table,short-answer-box,checklist-box",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

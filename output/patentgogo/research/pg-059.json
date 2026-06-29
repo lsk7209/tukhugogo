@@ -1,0 +1,153 @@
+{
+  "article_id": "pg-059",
+  "title": "양극재 특허 검색 실무 순서: 고니켈·코발트·망간 조성 원문 확인 흐름",
+  "article_research_question": "양극재 특허 검색 실무 순서에서 독자가 재현 가능한 검색 기록을 만들려면 어떤 공식 출처와 제외 기준이 필요한가?",
+  "reader_outcome": "양극재 R&D 후보를 특허 문헌으로 좁히는 상황",
+  "original_contribution": {
+    "type": "decision_framework",
+    "description": "고니켈·코발트·망간 조성과 원문 확인 순서을 분리해 판단 보류 기준을 만든다.",
+    "source_ids": [
+      "kipris",
+      "wipo-ipc",
+      "patentscope"
+    ]
+  },
+  "ymyl_category": "legal",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "research_runs": [
+    {
+      "query": "양극재 특허 검색 실무 순서 KIPRIS",
+      "date": "2026-06-28",
+      "purpose": "official source check"
+    },
+    {
+      "query": "양극재 특허 검색 실무 순서 특허청 특허로",
+      "date": "2026-06-28",
+      "purpose": "procedure source check"
+    },
+    {
+      "query": "양극재 특허 검색 실무 순서 WIPO IPC PATENTSCOPE",
+      "date": "2026-06-28",
+      "purpose": "international source check"
+    }
+  ],
+  "sources": [
+    {
+      "id": "kipris",
+      "title": "KIPRIS 특허정보검색서비스",
+      "url": "https://www.kipris.or.kr/",
+      "publisher": "KIPRIS",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "양극재 특허 검색 실무 순서의 업무 절차 기준 확인"
+    },
+    {
+      "id": "wipo-ipc",
+      "title": "WIPO IPC",
+      "url": "https://www.wipo.int/classifications/ipc/en/",
+      "publisher": "WIPO",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "양극재 특허 검색 실무 순서의 업무 절차 기준 확인"
+    },
+    {
+      "id": "patentscope",
+      "title": "WIPO PATENTSCOPE",
+      "url": "https://patentscope.wipo.int/",
+      "publisher": "WIPO",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "양극재 특허 검색 실무 순서의 업무 절차 기준 확인"
+    },
+    {
+      "id": "espacenet",
+      "title": "Espacenet",
+      "url": "https://worldwide.espacenet.com/",
+      "publisher": "EPO",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "양극재 특허 검색 실무 순서의 업무 절차 기준 확인"
+    },
+    {
+      "id": "google-patents",
+      "title": "Google Patents",
+      "url": "https://patents.google.com/",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "양극재 특허 검색 실무 순서의 업무 절차 기준 확인"
+    },
+    {
+      "id": "kipo",
+      "title": "특허청",
+      "url": "https://www.kipo.go.kr/",
+      "publisher": "특허청",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "양극재 특허 검색 실무 순서의 업무 절차 기준 확인"
+    },
+    {
+      "id": "case-cathode",
+      "title": "US10516154B2 - Cathode material for lithium secondary battery",
+      "url": "https://patents.google.com/patent/US10516154B2/en",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "양극재 특허 검색 실무 순서의 문헌 미니케이스와 양극재 조성·입자·결정구조를 한 축으로 뭉치면 해석이 흐려지는 사례"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "특허 문헌 확인은 공식 원문과 공개·등록 상태 확인이 필요하다.",
+      "source_id": "kipris",
+      "claim_type": "procedure",
+      "supports_section": "'조성비와 결정구조' 기록표에 남기는 법"
+    },
+    {
+      "claim": "IPC는 기술 분야 탐색 축이며 청구항 해석을 대체하지 않는다.",
+      "source_id": "wipo-ipc",
+      "claim_type": "definition",
+      "supports_section": "양극재 조성 비교표를 공식 출처와 원문으로 교차 확인하는 단계"
+    },
+    {
+      "claim": "US10516154B2는 Samsung SDI Co Ltd.의 공개 문헌 예시로 양극재 조성·입자·결정구조를 한 축으로 뭉치면 해석이 흐려지는 사례에 사용했다.",
+      "source_id": "case-cathode",
+      "claim_type": "named_entity",
+      "supports_section": "고니켈·코발트·망간 조성 확인을 첫 단계에 두는 이유"
+    }
+  ],
+  "source_interpretation": "업무 절차 관점에서 고니켈·코발트·망간 조성과 원문 확인 순서을 분리해 읽도록 출처 역할을 나눴다.",
+  "article_specific_details": [
+    {
+      "claim": "'고니켈·코발트·망간 조성' 항목은 '조성비와 결정구조' 때문에 검색 기준을 별도로 둬야 한다.",
+      "source_id": "kipris"
+    },
+    {
+      "claim": "양극재 특허 문헌은 국내 검색과 해외 패밀리 확인의 역할이 다르다.",
+      "source_id": "wipo-ipc"
+    },
+    {
+      "claim": "US10516154B2 미니케이스는 양극재 특허 클러스터에서만 양극재 조성·입자·결정구조를 한 축으로 뭉치면 해석이 흐려지는 사례를 설명한다.",
+      "source_id": "case-cathode"
+    }
+  ],
+  "competitor_gap": "상위 검색 결과는 검색 절차 요약이 많고, 출처별 역할·제외 기준·판단 보류 항목을 함께 적는 글은 부족하다.",
+  "unique_angle": "양극재 특허 검색의 실무 순서 검토이며 비용·침해·사업성 판단은 제외하는 것",
+  "fact_traceability_pass": true,
+  "unresolved_claims": []
+}

@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-015",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "ipc-cpc-map-situation-H01M 배터리 분류",
+    "subtitle_pattern_signature": "situation-상황별 판단",
+    "opening_frame": "배터리 문헌을 분류 코드 기준으로 선별해야 하는 상황에서는 같은 문헌이라",
+    "section_role_sequence": "배터리 문헌을 분류 코드 기준으로 선별해야 하는 상황에서 질문을 나누는 이유 > 'H01M 배터리 분류' 보는 세 가지 경우 > 배터리 문헌을 분류 코드 기준으로 선별해야 하는 상황에서 상황별 판단이 달라지는 분기점 > '상위·인접 분류' 질문별 해석법 > IPC CPC 분류표 기준으로 공식 출처에서 공통 확인할 항목 > 분류 코드를 검색 축으로 쓸지 보조 축으로 둘지 정하는 순간에 맞는 다음 행동",
+    "visual_sequence": "scenario-branch-table,short-answer-box,checklist-box",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

@@ -1,0 +1,36 @@
+{
+  "name": "tukhugogo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "check": "tsc --noEmit --incremental false",
+    "build": "next build",
+    "content:generate": "node scripts/generate-content-batch.mjs",
+    "content:check": "node scripts/validate-content-batch.mjs",
+    "data:fetch-kipris": "node scripts/fetch-kipris-snapshot.mjs",
+    "data:check": "node scripts/check-live-data.mjs",
+    "data:import": "node scripts/import-patent-snapshot.mjs",
+    "gsc:submit-sitemap": "python scripts/submit-gsc-sitemap.py --json"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.15",
+    "next": "^16.2.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.15"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

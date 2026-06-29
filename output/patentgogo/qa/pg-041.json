@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-041",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "filing-budget-criteria-관납료와 대리인 비용",
+    "subtitle_pattern_signature": "criteria-보류 기준",
+    "opening_frame": "국내 출원과 PCT 비용을 한 예산표에 올리는 상황에서는 자료를 더 모으",
+    "section_role_sequence": "이번 분기에 국내만 낼지 해외 단계까지 열어 둘지 판단 전에 지울 결론 > '관납료와 대리인 비용' 범위를 나누는 기준 > 출원 예산표에 남길 보류 기준 > 공식 출처로 출원 예산 다시 확인하기 > 관납료와 대리인 비용을 구분하지 않아 예산이 흔들리는 문제가 생기는 경계 > 출원 계획을 예산 승인 문서로 옮겨야 하는 상황의 다음 메모",
+    "visual_sequence": "decision-box,checklist-box,official-link-card",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-012",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "ipc-cpc-map-mistake-H01M 배터리 분류",
+    "subtitle_pattern_signature": "mistake-검색 누락 방지",
+    "opening_frame": "상위 분류만 보고 다른 기술군을 같은 묶음으로 넣는 문제는 대개 검색 실",
+    "section_role_sequence": "상위 분류만 보고 다른 기술군을 같은 묶음으로 넣는 문제가 먼저 보이는 지점 > 'H01M 배터리 분류' 누락을 부르는 습관 > IPC CPC 분류표에 남겨야 할 증거 > '상위·인접 분류' 오해를 되돌리는 순서 > IPC CPC 분류표를 공식 출처로 다시 맞출 체크리스트 > H01M 문헌을 소재·장치·공정으로 다시 나누는 상황 이후 반복 방지법",
+    "visual_sequence": "caution-box,evidence-list,checklist-box",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

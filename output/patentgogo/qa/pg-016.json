@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-016",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "patent-map-design-criteria-분야·연도·출원인 축",
+    "subtitle_pattern_signature": "criteria-보류 기준",
+    "opening_frame": "특허맵 첫 장에 어떤 축을 놓을지 정하는 상황에서는 자료를 더 모으기보다",
+    "section_role_sequence": "보고서의 기본 축과 제외 기준을 확정하는 순간 판단 전에 지울 결론 > '분야·연도·출원인 축' 범위를 나누는 기준 > 분석 축 설계표에 남길 보류 기준 > 공식 출처로 특허맵 설계 다시 확인하기 > 분야·연도·출원인을 한 그래프에 섞어 해석이 흐려지는 문제가 생기는 경계 > 경영진 보고용 특허맵을 만드는 담당자가 축을 고르는 상황의 다음 메모",
+    "visual_sequence": "decision-box,checklist-box,official-link-card",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

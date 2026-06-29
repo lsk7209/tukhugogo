@@ -1,0 +1,89 @@
+{
+  "domain": "patentgogo.com",
+  "checked_at_kst": "2026-06-28T00:11:01+09:00",
+  "registrar_target": "Dynadot",
+  "purchase_profile": "adsense",
+  "business_fit": {
+    "rating": "Strong",
+    "reason": "Clean brandable .com with confirmed regular Dynadot pricing, no DNS, no archive sample, and direct fit for the patent data site."
+  },
+  "domain_reputation": {
+    "rdap": "not-found",
+    "dns": "no-dns",
+    "http": "not_checked_no_dns",
+    "internet_archive_200_capture_sample": 0,
+    "spamhaus_dbl": "manual_review_required_local_resolver_blocked",
+    "keyword_risks": [],
+    "trademark_hints": [],
+    "assessment": "Clean first-pass signals. Final registrar availability, premium status, and manual blacklist/trademark checks are still required immediately before purchase."
+  },
+  "adsense_domain_fit": {
+    "score_estimate": 92,
+    "immediate_reject": false,
+    "policy_sensitive_labels": [],
+    "prior_adsense_trace": "manual_review_required",
+    "assessment": "Brandable, short, no hyphen or digits, trusted .com TLD, and no obvious policy-sensitive wording."
+  },
+  "search_growth_fit": {
+    "market": "Korea-facing patent intelligence with room for English/global expansion",
+    "strengths": [
+      "Patent keyword is clear in English.",
+      "Gogo matches the Korean site name while remaining easy to type.",
+      "Domain can support data tools, rankings, guides, and editorial content."
+    ],
+    "risks": [
+      "Patent topic is expert-heavy, so content must cite sources and avoid legal-advice claims."
+    ]
+  },
+  "business_operations_fit": {
+    "registration_price_reference": "Dynadot production API search confirmed patentgogo.com available, Registration Price: 10.88 in USD, Renewal price: 10.88 in USD, Domain is not a Premium Domain.",
+    "account_balance_reference": "Dynadot production account balance checked as 82.02 USD.",
+    "recommended_duration_years": 1,
+    "dns_plan": {
+      "apex": {
+        "type": "A",
+        "name": "@",
+        "value": "76.76.21.21"
+      },
+      "www": {
+        "type": "CNAME",
+        "name": "www",
+        "value": "cname.vercel-dns-0.com"
+      }
+    },
+    "site_env_plan": {
+      "NEXT_PUBLIC_SITE_URL": "https://patentgogo.com"
+    },
+    "required_ops_before_live": [
+      "Confirm Dynadot final all-in price and premium status.",
+      "Confirm Dynadot production account, account balance or payment method, 2FA, recovery email, and domain lock.",
+      "Add patentgogo.com and www.patentgogo.com to the target Vercel project.",
+      "Set NEXT_PUBLIC_SITE_URL=https://patentgogo.com in Vercel production environment.",
+      "Verify HTTPS certificate, apex redirect, www redirect, sitemap, robots.txt, ads.txt, and canonical URLs."
+    ]
+  },
+  "backlink_trust": {
+    "archive_history": "no_200_capture_sample",
+    "aged_domain_value": "not_assumed",
+    "assessment": "Treat as a clean new brand domain, not an aged/backlink purchase."
+  },
+  "manual_checks_summary": {
+    "dynadot_search_url": "https://www.dynadot.com/domain/search.html?domain=patentgogo.com",
+    "whois_url": "https://www.dynadot.com/domain/whois.html?domain=patentgogo.com",
+    "safe_browsing_url": "https://transparencyreport.google.com/safe-browsing/search?url=patentgogo.com",
+    "virustotal_url": "https://www.virustotal.com/gui/domain/patentgogo.com",
+    "urlscan_url": "https://urlscan.io/search/#patentgogo.com",
+    "archive_url": "https://web.archive.org/web/*/patentgogo.com",
+    "google_exact_search": "https://www.google.com/search?q=%22patentgogo.com%22",
+    "status": "manual_review_required_before_live_purchase"
+  },
+  "purchase_gate": {
+    "live_purchase_allowed_now": false,
+    "manual_review_required": true,
+    "blockers": [
+      "DYNADOT_API_KEY is available via D:\\env\\dynadot-keys.txt, but live purchase requires fresh final confirmation in chat.",
+      "No final confirmation was provided with exact domain, max price/currency, duration, and production account confirmation in one statement.",
+      "No Vercel project is linked in .vercel/project.json."
+    ]
+  }
+}

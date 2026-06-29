@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-068",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "electrolyte-comparison-염·용매·첨가제 조합",
+    "subtitle_pattern_signature": "comparison-권리 신호 비교",
+    "opening_frame": "첨가제 조합표는 숫자를 보기 좋게 놓는 표가 아니라 서로 다른 근거를 섞",
+    "section_role_sequence": "첨가제 조합표에서 섞지 말아야 할 값 > 염·용매·첨가제 조합과 전해질 특허 비교 축 > 첨가제 조합표에서 '권리 신호 비교' 우선 검토와 보류 기준 > 'SEI 형성과 안정성' 비교표 반영 방법 > 전해질 첨가제 조합에서 SEI 형성 근거를 고르는 상황에서 출처별 차이를 공식 원문으로 맞추는 법 > 안정성 근거와 조성 조합을 따로 볼지 정하는 순간 뒤에 남길 질문",
+    "visual_sequence": "comparison-table,decision-box,risk-labels",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

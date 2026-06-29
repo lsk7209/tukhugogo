@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-030",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "claim-reading-situation-독립항과 종속항",
+    "subtitle_pattern_signature": "situation-상황별 판단",
+    "opening_frame": "청구항을 사업 검토 문장으로 바꿔야 하는 실무자가 읽는 상황에서는 같은 ",
+    "section_role_sequence": "청구항을 사업 검토 문장으로 바꿔야 하는 실무자가 읽는 상황에서 질문을 나누는 이유 > '독립항과 종속항' 보는 세 가지 경우 > 청구항을 사업 검토 문장으로 바꿔야 하는 실무자가 읽는 상황에서 상황별 판단이 달라지는 분기점 > '구성요소와 효과' 질문별 해석법 > 청구항 구성요소표 기준으로 공식 출처에서 공통 확인할 항목 > 핵심 구성요소와 부가 구성을 분리하는 순간에 맞는 다음 행동",
+    "visual_sequence": "scenario-branch-table,short-answer-box,checklist-box",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

@@ -1,0 +1,153 @@
+{
+  "article_id": "pg-063",
+  "title": "음극재 특허 검색 비교 기준: 흑연·실리콘·리튬금속 권리 신호 나누기",
+  "article_research_question": "음극재 특허 검색 비교 기준에서 독자가 재현 가능한 검색 기록을 만들려면 어떤 공식 출처와 제외 기준이 필요한가?",
+  "reader_outcome": "음극재 후보 기술을 문헌 근거로 비교하는 상황",
+  "original_contribution": {
+    "type": "decision_framework",
+    "description": "흑연·실리콘·리튬금속과 권리 신호 비교을 분리해 판단 보류 기준을 만든다.",
+    "source_ids": [
+      "kipris",
+      "wipo-ipc",
+      "patentscope"
+    ]
+  },
+  "ymyl_category": "legal",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "research_runs": [
+    {
+      "query": "음극재 특허 검색 비교 기준 KIPRIS",
+      "date": "2026-06-28",
+      "purpose": "official source check"
+    },
+    {
+      "query": "음극재 특허 검색 비교 기준 특허청 특허로",
+      "date": "2026-06-28",
+      "purpose": "procedure source check"
+    },
+    {
+      "query": "음극재 특허 검색 비교 기준 WIPO IPC PATENTSCOPE",
+      "date": "2026-06-28",
+      "purpose": "international source check"
+    }
+  ],
+  "sources": [
+    {
+      "id": "kipris",
+      "title": "KIPRIS 특허정보검색서비스",
+      "url": "https://www.kipris.or.kr/",
+      "publisher": "KIPRIS",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "음극재 특허 검색 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "wipo-ipc",
+      "title": "WIPO IPC",
+      "url": "https://www.wipo.int/classifications/ipc/en/",
+      "publisher": "WIPO",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "음극재 특허 검색 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "patentscope",
+      "title": "WIPO PATENTSCOPE",
+      "url": "https://patentscope.wipo.int/",
+      "publisher": "WIPO",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "음극재 특허 검색 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "espacenet",
+      "title": "Espacenet",
+      "url": "https://worldwide.espacenet.com/",
+      "publisher": "EPO",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "음극재 특허 검색 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "google-patents",
+      "title": "Google Patents",
+      "url": "https://patents.google.com/",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "음극재 특허 검색 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "kipo",
+      "title": "특허청",
+      "url": "https://www.kipo.go.kr/",
+      "publisher": "특허청",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "음극재 특허 검색 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "case-anode",
+      "title": "US10658654B2 - Composite anode active material, anode including the same, and lithium secondary battery including the anode",
+      "url": "https://patents.google.com/patent/US10658654B2/en",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "음극재 특허 검색 비교 기준의 문헌 미니케이스와 실리콘계 음극재의 수명 근거와 제조 조건을 분리하는 사례"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "특허 문헌 확인은 공식 원문과 공개·등록 상태 확인이 필요하다.",
+      "source_id": "kipris",
+      "claim_type": "procedure",
+      "supports_section": "'팽창 억제와 수명' 비교표 반영 방법"
+    },
+    {
+      "claim": "IPC는 기술 분야 탐색 축이며 청구항 해석을 대체하지 않는다.",
+      "source_id": "wipo-ipc",
+      "claim_type": "definition",
+      "supports_section": "실리콘 음극재 문헌에서 팽창 억제 근거를 찾는 상황에서 출처별 차이를 공식 원문으로 맞추는 법"
+    },
+    {
+      "claim": "US10658654B2는 Samsung Electronics Co Ltd.의 공개 문헌 예시로 실리콘계 음극재의 수명 근거와 제조 조건을 분리하는 사례에 사용했다.",
+      "source_id": "case-anode",
+      "claim_type": "named_entity",
+      "supports_section": "흑연·실리콘·리튬금속과 음극재 특허 비교 축"
+    }
+  ],
+  "source_interpretation": "비교 분석 관점에서 흑연·실리콘·리튬금속과 권리 신호 비교을 분리해 읽도록 출처 역할을 나눴다.",
+  "article_specific_details": [
+    {
+      "claim": "'흑연·실리콘·리튬금속' 항목은 '팽창 억제와 수명' 때문에 검색 기준을 별도로 둬야 한다.",
+      "source_id": "kipris"
+    },
+    {
+      "claim": "음극재 특허 문헌은 국내 검색과 해외 패밀리 확인의 역할이 다르다.",
+      "source_id": "wipo-ipc"
+    },
+    {
+      "claim": "US10658654B2 미니케이스는 음극재 특허 클러스터에서만 실리콘계 음극재의 수명 근거와 제조 조건을 분리하는 사례를 설명한다.",
+      "source_id": "case-anode"
+    }
+  ],
+  "competitor_gap": "상위 검색 결과는 검색 절차 요약이 많고, 출처별 역할·제외 기준·판단 보류 항목을 함께 적는 글은 부족하다.",
+  "unique_angle": "음극재 특허 검색의 비교 기준 검토이며 비용·침해·사업성 판단은 제외하는 것",
+  "fact_traceability_pass": true,
+  "unresolved_claims": []
+}

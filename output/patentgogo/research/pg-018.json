@@ -1,0 +1,153 @@
+{
+  "article_id": "pg-018",
+  "title": "특허맵 설계 비교 기준: 분야·연도·출원인 축 권리 신호 나누기",
+  "article_research_question": "특허맵 설계 비교 기준에서 독자가 재현 가능한 검색 기록을 만들려면 어떤 공식 출처와 제외 기준이 필요한가?",
+  "reader_outcome": "경영진 보고용 특허맵을 만드는 담당자가 축을 고르는 상황",
+  "original_contribution": {
+    "type": "decision_framework",
+    "description": "분야·연도·출원인 축과 권리 신호 비교을 분리해 판단 보류 기준을 만든다.",
+    "source_ids": [
+      "kipris",
+      "kipo",
+      "wipo-ipc"
+    ]
+  },
+  "ymyl_category": "legal",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "research_runs": [
+    {
+      "query": "특허맵 설계 비교 기준 KIPRIS",
+      "date": "2026-06-28",
+      "purpose": "official source check"
+    },
+    {
+      "query": "특허맵 설계 비교 기준 특허청 특허로",
+      "date": "2026-06-28",
+      "purpose": "procedure source check"
+    },
+    {
+      "query": "특허맵 설계 비교 기준 WIPO IPC PATENTSCOPE",
+      "date": "2026-06-28",
+      "purpose": "international source check"
+    }
+  ],
+  "sources": [
+    {
+      "id": "kipris",
+      "title": "KIPRIS 특허정보검색서비스",
+      "url": "https://www.kipris.or.kr/",
+      "publisher": "KIPRIS",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "특허맵 설계 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "kipo",
+      "title": "특허청",
+      "url": "https://www.kipo.go.kr/",
+      "publisher": "특허청",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "특허맵 설계 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "wipo-ipc",
+      "title": "WIPO IPC",
+      "url": "https://www.wipo.int/classifications/ipc/en/",
+      "publisher": "WIPO",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "특허맵 설계 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "patentscope",
+      "title": "WIPO PATENTSCOPE",
+      "url": "https://patentscope.wipo.int/",
+      "publisher": "WIPO",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "특허맵 설계 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "espacenet",
+      "title": "Espacenet",
+      "url": "https://worldwide.espacenet.com/",
+      "publisher": "EPO",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "특허맵 설계 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "google-patents",
+      "title": "Google Patents",
+      "url": "https://patents.google.com/",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "특허맵 설계 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "case-patent-map-design",
+      "title": "US20200343541A1 - Positive Electrode and Secondary Battery Including Same",
+      "url": "https://patents.google.com/patent/US20200343541A1/en",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "특허맵 설계 비교 기준의 문헌 미니케이스와 특허맵에서 소재·출원인·패밀리 축을 분리해야 하는 사례"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "특허 문헌 확인은 공식 원문과 공개·등록 상태 확인이 필요하다.",
+      "source_id": "kipris",
+      "claim_type": "procedure",
+      "supports_section": "'분석 축과 제외 기준' 비교표 반영 방법"
+    },
+    {
+      "claim": "IPC는 기술 분야 탐색 축이며 청구항 해석을 대체하지 않는다.",
+      "source_id": "wipo-ipc",
+      "claim_type": "definition",
+      "supports_section": "특허맵 첫 장에 어떤 축을 놓을지 정하는 상황에서 출처별 차이를 공식 원문으로 맞추는 법"
+    },
+    {
+      "claim": "US20200343541A1는 LG Chem Ltd.의 공개 문헌 예시로 특허맵에서 소재·출원인·패밀리 축을 분리해야 하는 사례에 사용했다.",
+      "source_id": "case-patent-map-design",
+      "claim_type": "named_entity",
+      "supports_section": "분야·연도·출원인 축과 특허맵 설계 비교 축"
+    }
+  ],
+  "source_interpretation": "비교 분석 관점에서 분야·연도·출원인 축과 권리 신호 비교을 분리해 읽도록 출처 역할을 나눴다.",
+  "article_specific_details": [
+    {
+      "claim": "'분야·연도·출원인 축' 항목은 '분석 축과 제외 기준' 때문에 검색 기준을 별도로 둬야 한다.",
+      "source_id": "kipris"
+    },
+    {
+      "claim": "특허맵 설계 문헌은 국내 검색과 해외 패밀리 확인의 역할이 다르다.",
+      "source_id": "kipo"
+    },
+    {
+      "claim": "US20200343541A1 미니케이스는 특허맵 설계 클러스터에서만 특허맵에서 소재·출원인·패밀리 축을 분리해야 하는 사례를 설명한다.",
+      "source_id": "case-patent-map-design"
+    }
+  ],
+  "competitor_gap": "상위 검색 결과는 검색 절차 요약이 많고, 출처별 역할·제외 기준·판단 보류 항목을 함께 적는 글은 부족하다.",
+  "unique_angle": "특허맵 설계의 비교 기준 검토이며 비용·침해·사업성 판단은 제외하는 것",
+  "fact_traceability_pass": true,
+  "unresolved_claims": []
+}

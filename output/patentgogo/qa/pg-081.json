@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-081",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "bms-pack-criteria-진단·충전·열관리",
+    "subtitle_pattern_signature": "criteria-보류 기준",
+    "opening_frame": "BMS 알고리즘 문헌을 센서·진단·충전 제어로 나누는 상황에서는 자료를 ",
+    "section_role_sequence": "하드웨어 구성과 소프트웨어 로직을 분리하는 순간 판단 전에 지울 결론 > '진단·충전·열관리' 범위를 나누는 기준 > BMS 기능 분해표에 남길 보류 기준 > 공식 출처로 BMS와 팩 다시 확인하기 > 열관리와 충전 제어를 같은 알고리즘 신호로 묶는 문제가 생기는 경계 > 배터리팩 기능 특허를 제품 요구사항과 맞추는 상황의 다음 메모",
+    "visual_sequence": "decision-box,checklist-box,official-link-card",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

@@ -1,0 +1,16 @@
+node_modules/
+.next/
+.vercel/
+.omx/
+.goal-harness/
+.env
+.env*.local
+*.log
+tsconfig.tsbuildinfo
+design_payload/
+design_payload.bin
+*-smoke.png
+next-smoke.png
+
+.vercel
+.env*.local

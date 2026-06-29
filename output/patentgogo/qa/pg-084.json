@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-084",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "bms-pack-workflow-진단·충전·열관리",
+    "subtitle_pattern_signature": "workflow-원문 확인 순서",
+    "opening_frame": "BMS 알고리즘 문헌을 센서·진단·충전 제어로 나누는 상황에서는 다음 사",
+    "section_role_sequence": "BMS 알고리즘 문헌을 센서·진단·충전 제어로 나누는 상황의 시작 준비물 > 진단·충전·열관리 확인을 첫 단계에 두는 이유 > BMS 기능 분해표로 이어지는 실무 순서 > '알고리즘과 센서' 기록표에 남기는 법 > BMS 기능 분해표를 공식 출처와 원문으로 교차 확인하는 단계 > BMS 기능 분해표에서 원문 확인 순서 완료 후 다시 볼 일정",
+    "visual_sequence": "step-cards,official-link-card,evidence-list",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

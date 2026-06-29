@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-036",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "office-action-criteria-보정서와 의견서",
+    "subtitle_pattern_signature": "criteria-보류 기준",
+    "opening_frame": "거절이유통지서를 받고 보정 방향을 고르는 상황에서는 자료를 더 모으기보다",
+    "section_role_sequence": "청구항을 줄일지 의견 논리를 보강할지 판단 전에 지울 결론 > '보정서와 의견서' 범위를 나누는 기준 > 보정·의견 대응표에 남길 보류 기준 > 공식 출처로 심사 대응 다시 확인하기 > 신규성 쟁점과 진보성 쟁점을 한 문장으로 섞는 문제가 생기는 경계 > 심사 대응 초안을 검토하는 출원 담당자가 판단하는 상황의 다음 메모",
+    "visual_sequence": "decision-box,checklist-box,official-link-card",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

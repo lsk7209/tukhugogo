@@ -1,0 +1,153 @@
+{
+  "article_id": "pg-075",
+  "title": "분리막 안전 특허 상황별 해석: 세라믹 코팅과 내열층 실무 질문 3가지",
+  "article_research_question": "분리막 안전 특허 상황별 해석에서 독자가 재현 가능한 검색 기록을 만들려면 어떤 공식 출처와 제외 기준이 필요한가?",
+  "reader_outcome": "분리막 개선안을 안전 근거로 설명해야 하는 상황",
+  "original_contribution": {
+    "type": "decision_framework",
+    "description": "세라믹 코팅과 내열층과 상황별 판단을 분리해 판단 보류 기준을 만든다.",
+    "source_ids": [
+      "kipris",
+      "wipo-ipc",
+      "patentscope"
+    ]
+  },
+  "ymyl_category": "legal",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "research_runs": [
+    {
+      "query": "분리막 안전 특허 상황별 해석 KIPRIS",
+      "date": "2026-06-28",
+      "purpose": "official source check"
+    },
+    {
+      "query": "분리막 안전 특허 상황별 해석 특허청 특허로",
+      "date": "2026-06-28",
+      "purpose": "procedure source check"
+    },
+    {
+      "query": "분리막 안전 특허 상황별 해석 WIPO IPC PATENTSCOPE",
+      "date": "2026-06-28",
+      "purpose": "international source check"
+    }
+  ],
+  "sources": [
+    {
+      "id": "kipris",
+      "title": "KIPRIS 특허정보검색서비스",
+      "url": "https://www.kipris.or.kr/",
+      "publisher": "KIPRIS",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "분리막 안전 특허 상황별 해석의 상황별 해석 기준 확인"
+    },
+    {
+      "id": "wipo-ipc",
+      "title": "WIPO IPC",
+      "url": "https://www.wipo.int/classifications/ipc/en/",
+      "publisher": "WIPO",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "분리막 안전 특허 상황별 해석의 상황별 해석 기준 확인"
+    },
+    {
+      "id": "patentscope",
+      "title": "WIPO PATENTSCOPE",
+      "url": "https://patentscope.wipo.int/",
+      "publisher": "WIPO",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "분리막 안전 특허 상황별 해석의 상황별 해석 기준 확인"
+    },
+    {
+      "id": "espacenet",
+      "title": "Espacenet",
+      "url": "https://worldwide.espacenet.com/",
+      "publisher": "EPO",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "분리막 안전 특허 상황별 해석의 상황별 해석 기준 확인"
+    },
+    {
+      "id": "google-patents",
+      "title": "Google Patents",
+      "url": "https://patents.google.com/",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "분리막 안전 특허 상황별 해석의 상황별 해석 기준 확인"
+    },
+    {
+      "id": "kipo",
+      "title": "특허청",
+      "url": "https://www.kipo.go.kr/",
+      "publisher": "특허청",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "분리막 안전 특허 상황별 해석의 상황별 해석 기준 확인"
+    },
+    {
+      "id": "case-separator",
+      "title": "WO2017185519A1 - Aqueous ceramic-coated separator for lithium ion battery and preparation method therefor",
+      "url": "https://patents.google.com/patent/WO2017185519A1/en",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "분리막 안전 특허 상황별 해석의 문헌 미니케이스와 분리막 두께·코팅층·안전성 항목을 따로 읽어야 하는 사례"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "특허 문헌 확인은 공식 원문과 공개·등록 상태 확인이 필요하다.",
+      "source_id": "kipris",
+      "claim_type": "procedure",
+      "supports_section": "'열수축과 관통 안전' 질문별 해석법"
+    },
+    {
+      "claim": "IPC는 기술 분야 탐색 축이며 청구항 해석을 대체하지 않는다.",
+      "source_id": "wipo-ipc",
+      "claim_type": "definition",
+      "supports_section": "분리막 안전 체크표 기준으로 공식 출처에서 공통 확인할 항목"
+    },
+    {
+      "claim": "WO2017185519A1는 Cangzhou Mingzhu Separator Technology Co Ltd.의 공개 문헌 예시로 분리막 두께·코팅층·안전성 항목을 따로 읽어야 하는 사례에 사용했다.",
+      "source_id": "case-separator",
+      "claim_type": "named_entity",
+      "supports_section": "'세라믹 코팅과 내열층' 보는 세 가지 경우"
+    }
+  ],
+  "source_interpretation": "상황별 해석 관점에서 세라믹 코팅과 내열층과 상황별 판단을 분리해 읽도록 출처 역할을 나눴다.",
+  "article_specific_details": [
+    {
+      "claim": "'세라믹 코팅과 내열층' 항목은 '열수축과 관통 안전' 때문에 검색 기준을 별도로 둬야 한다.",
+      "source_id": "kipris"
+    },
+    {
+      "claim": "분리막 안전 문헌은 국내 검색과 해외 패밀리 확인의 역할이 다르다.",
+      "source_id": "wipo-ipc"
+    },
+    {
+      "claim": "WO2017185519A1 미니케이스는 분리막 안전 클러스터에서만 분리막 두께·코팅층·안전성 항목을 따로 읽어야 하는 사례를 설명한다.",
+      "source_id": "case-separator"
+    }
+  ],
+  "competitor_gap": "상위 검색 결과는 검색 절차 요약이 많고, 출처별 역할·제외 기준·판단 보류 항목을 함께 적는 글은 부족하다.",
+  "unique_angle": "분리막 안전 특허의 상황별 해석 검토이며 비용·침해·사업성 판단은 제외하는 것",
+  "fact_traceability_pass": true,
+  "unresolved_claims": []
+}

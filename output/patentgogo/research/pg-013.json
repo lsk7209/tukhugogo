@@ -1,0 +1,153 @@
+{
+  "article_id": "pg-013",
+  "title": "IPC CPC 분류 비교 기준: H01M 배터리 분류 권리 신호 나누기",
+  "article_research_question": "IPC CPC 분류 비교 기준에서 독자가 재현 가능한 검색 기록을 만들려면 어떤 공식 출처와 제외 기준이 필요한가?",
+  "reader_outcome": "배터리 문헌을 분류 코드 기준으로 선별해야 하는 상황",
+  "original_contribution": {
+    "type": "decision_framework",
+    "description": "H01M 배터리 분류과 권리 신호 비교을 분리해 판단 보류 기준을 만든다.",
+    "source_ids": [
+      "wipo-ipc",
+      "uspto-class",
+      "kipris"
+    ]
+  },
+  "ymyl_category": "legal",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "research_runs": [
+    {
+      "query": "IPC CPC 분류 비교 기준 KIPRIS",
+      "date": "2026-06-28",
+      "purpose": "official source check"
+    },
+    {
+      "query": "IPC CPC 분류 비교 기준 특허청 특허로",
+      "date": "2026-06-28",
+      "purpose": "procedure source check"
+    },
+    {
+      "query": "IPC CPC 분류 비교 기준 WIPO IPC PATENTSCOPE",
+      "date": "2026-06-28",
+      "purpose": "international source check"
+    }
+  ],
+  "sources": [
+    {
+      "id": "wipo-ipc",
+      "title": "WIPO IPC",
+      "url": "https://www.wipo.int/classifications/ipc/en/",
+      "publisher": "WIPO",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "IPC CPC 분류 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "uspto-class",
+      "title": "USPTO Classification",
+      "url": "https://www.uspto.gov/learning-and-resources/classification",
+      "publisher": "USPTO",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "IPC CPC 분류 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "kipris",
+      "title": "KIPRIS 특허정보검색서비스",
+      "url": "https://www.kipris.or.kr/",
+      "publisher": "KIPRIS",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "IPC CPC 분류 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "espacenet",
+      "title": "Espacenet",
+      "url": "https://worldwide.espacenet.com/",
+      "publisher": "EPO",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "IPC CPC 분류 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "google-patents",
+      "title": "Google Patents",
+      "url": "https://patents.google.com/",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "IPC CPC 분류 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "kipo",
+      "title": "특허청",
+      "url": "https://www.kipo.go.kr/",
+      "publisher": "특허청",
+      "accessed": "2026-06-28",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "IPC CPC 분류 비교 기준의 비교 분석 기준 확인"
+    },
+    {
+      "id": "case-ipc-cpc-map",
+      "title": "US10516154B2 - Positive electrode for lithium secondary battery and method for preparing the same",
+      "url": "https://patents.google.com/patent/US10516154B2/en",
+      "publisher": "Google Patents",
+      "accessed": "2026-06-28",
+      "source_type": "primary",
+      "source_role": "primary_data",
+      "is_official": false,
+      "used_for": "IPC CPC 분류 비교 기준의 문헌 미니케이스와 양극재 문헌을 H01M 분류와 소재 키워드로 함께 좁히는 사례"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "특허 문헌 확인은 공식 원문과 공개·등록 상태 확인이 필요하다.",
+      "source_id": "wipo-ipc",
+      "claim_type": "procedure",
+      "supports_section": "'상위·인접 분류' 비교표 반영 방법"
+    },
+    {
+      "claim": "IPC는 기술 분야 탐색 축이며 청구항 해석을 대체하지 않는다.",
+      "source_id": "wipo-ipc",
+      "claim_type": "definition",
+      "supports_section": "H01M 문헌을 소재·장치·공정으로 다시 나누는 상황에서 출처별 차이를 공식 원문으로 맞추는 법"
+    },
+    {
+      "claim": "US10516154B2는 LG Chem Ltd. / LG Energy Solution Ltd.의 공개 문헌 예시로 양극재 문헌을 H01M 분류와 소재 키워드로 함께 좁히는 사례에 사용했다.",
+      "source_id": "case-ipc-cpc-map",
+      "claim_type": "named_entity",
+      "supports_section": "H01M 배터리 분류과 IPC와 CPC 비교 축"
+    }
+  ],
+  "source_interpretation": "비교 분석 관점에서 H01M 배터리 분류과 권리 신호 비교을 분리해 읽도록 출처 역할을 나눴다.",
+  "article_specific_details": [
+    {
+      "claim": "'H01M 배터리 분류' 항목은 '상위·인접 분류' 때문에 검색 기준을 별도로 둬야 한다.",
+      "source_id": "wipo-ipc"
+    },
+    {
+      "claim": "IPC와 CPC 문헌은 국내 검색과 해외 패밀리 확인의 역할이 다르다.",
+      "source_id": "uspto-class"
+    },
+    {
+      "claim": "US10516154B2 미니케이스는 IPC와 CPC 클러스터에서만 양극재 문헌을 H01M 분류와 소재 키워드로 함께 좁히는 사례를 설명한다.",
+      "source_id": "case-ipc-cpc-map"
+    }
+  ],
+  "competitor_gap": "상위 검색 결과는 검색 절차 요약이 많고, 출처별 역할·제외 기준·판단 보류 항목을 함께 적는 글은 부족하다.",
+  "unique_angle": "IPC CPC 분류의 비교 기준 검토이며 비용·침해·사업성 판단은 제외하는 것",
+  "fact_traceability_pass": true,
+  "unresolved_claims": []
+}

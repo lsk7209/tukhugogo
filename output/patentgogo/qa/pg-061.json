@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-061",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "anode-criteria-흑연·실리콘·리튬금속",
+    "subtitle_pattern_signature": "criteria-보류 기준",
+    "opening_frame": "실리콘 음극재 문헌에서 팽창 억제 근거를 찾는 상황에서는 자료를 더 모으",
+    "section_role_sequence": "수명 개선 근거와 제조 난이도를 분리하는 순간 판단 전에 지울 결론 > '흑연·실리콘·리튬금속' 범위를 나누는 기준 > 음극재 수명 근거표에 남길 보류 기준 > 공식 출처로 음극재 특허 다시 확인하기 > 흑연·실리콘·리튬금속 문헌을 같은 성능 지표로 비교하는 문제가 생기는 경계 > 음극재 후보 기술을 문헌 근거로 비교하는 상황의 다음 메모",
+    "visual_sequence": "decision-box,checklist-box,official-link-card",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

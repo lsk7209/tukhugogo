@@ -1,0 +1,39 @@
+{
+  "article_id": "pg-033",
+  "score": 93,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical": 13,
+    "ai_citation_readiness": 13
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "visual_elements": true,
+    "patent_case_examples": true,
+    "heading_quality": true,
+    "body_length": true,
+    "internal_links": true,
+    "no_ad_slots": true
+  },
+  "compared_rows": [],
+  "similarity_signals": {
+    "title_pattern_signature": "spec-writing-comparison-실험예와 비교예",
+    "subtitle_pattern_signature": "comparison-권리 신호 비교",
+    "opening_frame": "효과 입증 자료표는 숫자를 보기 좋게 놓는 표가 아니라 서로 다른 근거를",
+    "section_role_sequence": "효과 입증 자료표에서 섞지 말아야 할 값 > 실험예와 비교예과 명세서 준비 비교 축 > 효과 입증 자료표에서 '권리 신호 비교' 우선 검토와 보류 기준 > '효과 입증 자료' 비교표 반영 방법 > 실험예와 비교예를 명세서 근거로 정리하는 상황에서 출처별 차이를 공식 원문으로 맞추는 법 > 보완 실험이 필요한지 문장 정리로 충분한지 정하는 순간 뒤에 남길 질문",
+    "visual_sequence": "comparison-table,decision-box,risk-labels",
+    "cta_type": "related-guide-and-cluster-link"
+  },
+  "repair_attempted": true,
+  "remaining_risks": "공식 사이트 화면명과 제도 문구는 개편될 수 있으므로 독자에게 원문 확인을 안내했다."
+}

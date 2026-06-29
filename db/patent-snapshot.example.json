@@ -1,0 +1,82 @@
+{
+  "sourceLabel": "특허청 KIPRIS · data.go.kr",
+  "asOf": "2025-12-31",
+  "techFields": [
+    {
+      "id": "cathode",
+      "ipc": "H01M 4/00",
+      "name": "양극재",
+      "shortName": "양극",
+      "description": "리튬 전이금속 산화물 등 양극 활물질"
+    },
+    {
+      "id": "solid",
+      "ipc": "H01M 10/056",
+      "name": "전고체",
+      "shortName": "전고체",
+      "description": "전고체 전지 및 고체전해질"
+    }
+  ],
+  "applicants": [
+    {
+      "id": "lg-energy-solution",
+      "name": "LG에너지솔루션",
+      "tag": "셀 메이커",
+      "normalizedName": "LG에너지솔루션"
+    },
+    {
+      "id": "samsung-sdi",
+      "name": "삼성SDI",
+      "tag": "셀 메이커",
+      "normalizedName": "삼성SDI"
+    }
+  ],
+  "fieldApplicantMetrics": [
+    {
+      "techFieldId": "cathode",
+      "applicantId": "lg-energy-solution",
+      "filingCount": 412,
+      "registrationRate": 71
+    },
+    {
+      "techFieldId": "solid",
+      "applicantId": "lg-energy-solution",
+      "filingCount": 198,
+      "registrationRate": 58
+    },
+    {
+      "techFieldId": "cathode",
+      "applicantId": "samsung-sdi",
+      "filingCount": 386,
+      "registrationRate": 73
+    },
+    {
+      "techFieldId": "solid",
+      "applicantId": "samsung-sdi",
+      "filingCount": 264,
+      "registrationRate": 62
+    }
+  ],
+  "fieldYearMetrics": [
+    {
+      "techFieldId": "cathode",
+      "year": 2024,
+      "filingCount": 2360
+    },
+    {
+      "techFieldId": "cathode",
+      "year": 2025,
+      "filingCount": 2440
+    },
+    {
+      "techFieldId": "solid",
+      "year": 2024,
+      "filingCount": 1080
+    },
+    {
+      "techFieldId": "solid",
+      "year": 2025,
+      "filingCount": 1290
+    }
+  ]
+}
