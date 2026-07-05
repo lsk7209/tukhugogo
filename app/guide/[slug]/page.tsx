@@ -49,6 +49,13 @@ function officialLinksFor(slug: string) {
     { label: "KIPRIS 특허정보검색서비스", href: "https://www.kipris.or.kr/", note: "원문 검색과 공개·등록 상태 확인" },
     { label: "특허청", href: "https://www.kipo.go.kr/", note: "제도 안내와 공지 확인" }
   ];
+  if (slug === "kipris-search") {
+    return [
+      ...common,
+      { label: "KIPRIS 검색 도움말", href: "https://www.kipris.or.kr/khome/board/help/basic.do", note: "통합검색과 상세검색 사용법 확인" },
+      { label: "KIPRIS 특허·실용신안 상세검색 도움말", href: "https://www.kipris.or.kr/khome/board/help/searchByRights.do?tab=patent", note: "권리별 검색 조건과 결과 해석 확인" }
+    ];
+  }
   if (slug === "ipc-code") {
     return [
       ...common,
@@ -58,7 +65,9 @@ function officialLinksFor(slug: string) {
   if (slug === "patent-filing-cost" || slug === "patent-filing-process") {
     return [
       ...common,
-      { label: "특허로", href: "https://www.patent.go.kr/", note: "전자출원과 수수료 관련 업무 확인" }
+      { label: "특허로", href: "https://www.patent.go.kr/", note: "전자출원과 수수료 관련 업무 확인" },
+      { label: "특허청 수수료 FAQ", href: "https://www.kipo.go.kr/kcall/faqRead.do?curMenuCd=SCD0300093&pgmId=PGM0000014&pgmSeq=60&sysCd=60&urlDo=%2FcFaqChargeList.do", note: "출원료·등록료 기준일과 최신 안내 확인" },
+      { label: "특허청 수수료 감면제도", href: "https://www.kipo.go.kr/ko/kpoContentView.do?menuCd=SCD0200378", note: "개인·중소기업 등 감면 대상과 제한 확인" }
     ];
   }
   return [
@@ -80,6 +89,7 @@ export default async function GuidePage({ params }: PageProps) {
   const officialLinks = officialLinksFor(topic.slug);
   const tocItems = [
     ...topic.sections.map(section => ({ id: section.id, label: section.heading })),
+    ...(topic.relatedLinks ? [{ id: "related-guide-links", label: "함께 확인할 내부 가이드" }] : []),
     { id: "checklist", label: "확인 체크리스트" },
     { id: "official-sources", label: "공식 확인 링크" },
     { id: "faq-title", label: "자주 묻는 질문" }
@@ -127,9 +137,28 @@ export default async function GuidePage({ params }: PageProps) {
             {topic.sections.map(section => (
               <section id={section.id} key={section.id}>
                 <h2>{section.heading}</h2>
-                <p>{section.body}</p>
+                {(Array.isArray(section.body) ? section.body : [section.body]).map(paragraph => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
               </section>
             ))}
+
+            {topic.relatedLinks ? (
+              <section id="related-guide-links">
+                <h2>함께 확인할 내부 가이드</h2>
+                <p>
+                  이 주제는 검색식, 출원 절차, 비용 범위를 함께 보아야 판단이 흔들리지 않습니다.
+                  아래 글을 이어서 보면 후보 문헌 확인부터 출원 준비까지 연결해서 점검할 수 있습니다.
+                </p>
+                <ul className="source-link-list">
+                  {topic.relatedLinks.map(link => (
+                    <li key={link.href}>
+                      <Link href={link.href}>{link.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ) : null}
 
             <section id="checklist">
               <h2>확인 체크리스트</h2>
