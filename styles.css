@@ -560,6 +560,49 @@ h1 { margin-top: 18px; font-size: clamp(42px, 7vw, 76px); max-width: 760px; }
   font-size: 13px;
   font-weight: 700;
 }
+.guide-visual-panel {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+.guide-visual-card {
+  min-height: 176px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--seal);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--seal-soft) 50%, transparent), transparent 42%),
+    var(--paper);
+}
+.guide-visual-card span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 900;
+}
+.guide-visual-card b {
+  display: block;
+  margin-top: 12px;
+  font-size: 18px;
+}
+.guide-visual-card p {
+  display: -webkit-box;
+  margin-top: 8px;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.65;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .related-rail {
   position: sticky;
   top: 86px;
@@ -806,6 +849,7 @@ h1 { margin-top: 18px; font-size: clamp(42px, 7vw, 76px); max-width: 760px; }
   .hero { padding: 48px 0; }
   h1 { font-size: 40px; }
   .variant-grid.three, .variant-grid.charts, .gate-grid, .blog-card-grid { grid-template-columns: 1fr; }
+  .guide-visual-panel { grid-template-columns: 1fr; }
   .mini-hero, .mini-content, .mini-content.trio, .mini-c { grid-template-columns: 1fr; }
   .tool-head { display: block; }
   .cite-btn { margin-top: 14px; }

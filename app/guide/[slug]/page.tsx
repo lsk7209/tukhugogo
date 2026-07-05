@@ -132,6 +132,15 @@ export default async function GuidePage({ params }: PageProps) {
             <div className="keyword-line">
               {topic.secondaryKeywords.map(keyword => <span key={keyword}>{keyword}</span>)}
             </div>
+            <div className="guide-visual-panel" aria-label="가이드 핵심 흐름">
+              {topic.sections.slice(0, 4).map((section, index) => (
+                <div className="guide-visual-card" key={section.id}>
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <b>{section.heading}</b>
+                  <p>{Array.isArray(section.body) ? section.body[0] : section.body}</p>
+                </div>
+              ))}
+            </div>
             <TableOfContents items={tocItems} />
 
             {topic.sections.map(section => (
