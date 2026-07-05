@@ -22,14 +22,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const topic = findGuideTopic(slug);
   if (!topic) return {};
+  const description = `${topic.primaryKeyword}: patentgogo.com 가이드. ${topic.summary}`;
 
   return {
     title: topic.primaryKeyword,
-    description: topic.summary,
+    description,
     alternates: { canonical: canonicalUrl(`/guide/${topic.slug}`) },
     openGraph: {
       title: `${topic.primaryKeyword} | ${siteProfile.name}`,
-      description: topic.summary,
+      description,
       url: canonicalUrl(`/guide/${topic.slug}`),
       type: "article",
       locale: "ko_KR",
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     twitter: {
       card: "summary_large_image",
       title: `${topic.primaryKeyword} | ${siteProfile.name}`,
-      description: topic.summary,
+      description,
       images: ["/og-image.png"]
     }
   };

@@ -45,14 +45,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const post = getContentPostBySlug(slug);
   if (!post) return {};
   const url = canonicalUrl(`/blog/${post.slug}/`);
+  const description = `${post.mainKeyword}: patentgogo.com 글. ${post.description}`;
 
   return {
     title: post.title,
-    description: post.description,
+    description,
     alternates: { canonical: url },
     openGraph: {
       title: `${post.title} | ${siteProfile.name}`,
-      description: post.description,
+      description,
       url,
       type: "article",
       locale: "ko_KR",
@@ -61,7 +62,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     twitter: {
       card: "summary_large_image",
       title: `${post.title} | ${siteProfile.name}`,
-      description: post.description,
+      description,
       images: ["/og-image.png"]
     }
   };

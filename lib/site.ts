@@ -26,7 +26,7 @@ export const SITE_URL = getSiteUrl();
 export const siteProfile = {
   name: "특허고고",
   shortName: "특허고고",
-  description: "배터리 특허 검색, 특허맵, 기업 비교, 분야별 출원 흐름을 공식 출처 기준으로 정리하는 특허 데이터룸입니다.",
+  description: "배터리 특허 검색: patentgogo.com은 특허맵, 기업 비교, 분야별 출원 흐름을 공식 출처 기준으로 정리하는 데이터룸입니다.",
   topic: "배터리 특허맵과 이차전지 기술 경쟁 데이터",
   audience: "KIPRIS 검색을 시작하는 실무자, 배터리 산업 리서처, 특허 출원 전 시장과 기술 흐름을 확인하는 창업자와 기업 담당자",
   tone: ["중립적", "출처 우선", "수치 해석은 보수적으로", "법률 자문처럼 단정하지 않음"],

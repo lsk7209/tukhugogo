@@ -8,8 +8,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "배터리 특허 검색 데이터룸 | 특허고고",
-    template: "%s | 특허고고"
+    default: "배터리 특허 검색 데이터룸 | patentgogo.com 특허고고",
+    template: "%s | patentgogo.com 특허고고"
   },
   description: siteProfile.description,
   metadataBase: new URL(canonicalUrl("/")),
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: siteProfile.name,
-    title: "배터리 특허 검색 데이터룸 | 특허고고",
+    title: "배터리 특허 검색 데이터룸 | patentgogo.com 특허고고",
     description: siteProfile.description,
     url: canonicalUrl("/"),
     locale: "ko_KR",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "배터리 특허 검색 데이터룸 | 특허고고",
+    title: "배터리 특허 검색 데이터룸 | patentgogo.com 특허고고",
     description: siteProfile.description,
     images: ["/og-image.png"]
   }

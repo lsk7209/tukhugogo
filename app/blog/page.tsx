@@ -12,11 +12,11 @@ export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "배터리 특허 검색 글 목록",
-  description: "KIPRIS 검색식, 특허맵 설계, IPC 분류, 선행기술 조사, 배터리 소재 특허 분석 글을 카드형 목록으로 정리했습니다.",
+  description: "배터리 특허 검색 글 목록: patentgogo.com에서 KIPRIS 검색식, 특허맵 설계, IPC 분류, 선행기술 조사 글을 정리했습니다.",
   alternates: { canonical: canonicalUrl("/blog/") },
   openGraph: {
     title: `배터리 특허 검색 글 목록 | ${siteProfile.name}`,
-    description: "배터리 특허 검색과 분석 실무 글을 모은 목록입니다.",
+    description: "배터리 특허 검색 글 목록: patentgogo.com 분석 실무 글 모음입니다.",
     url: canonicalUrl("/blog/"),
     locale: "ko_KR",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "특허고고 블로그 글 목록" }]
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `배터리 특허 검색 글 목록 | ${siteProfile.name}`,
-    description: "KIPRIS, 특허맵, IPC, 선행기술 조사 글을 모은 목록입니다.",
+    description: "배터리 특허 검색 글 목록: patentgogo.com KIPRIS, 특허맵, IPC 글 모음입니다.",
     images: ["/og-image.png"]
   }
 };
