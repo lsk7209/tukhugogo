@@ -9,6 +9,7 @@
     "build": "next build",
     "content:generate": "node scripts/generate-content-batch.mjs",
     "content:check": "node scripts/validate-content-batch.mjs",
+    "content:audit-density": "node scripts/audit-publication-density.mjs",
     "data:fetch-kipris": "node scripts/fetch-kipris-snapshot.mjs",
     "data:check": "node scripts/check-live-data.mjs",
     "data:import": "node scripts/import-patent-snapshot.mjs",
