@@ -1,12 +1,12 @@
 # Current handoff — Patentgogo ad-scope deployment recovery
 
-- Timestamp: 2026-08-30 08:46 KST
+- Timestamp: 2026-08-30 08:49 KST
 - User goal: audit and optimize the dashboard fleet one site at a time, using GitHub first where applicable.
-- Exact current state: GitHub `main` at `6b16c2c74291278b9184805f6209c6f2ba51e81b` contains the route-scoped AdSense implementation and its direct Vercel deployment passes the scope audit. The custom domain serves a different deployment marker and still emits the loader on non-reader routes.
-- Completed work: preserved the dirty original checkout; cloned remote `main`; refreshed first-party GSC/GA4 evidence; verified sitemap, robots, metadata, schema, mobile rendering, demo-data indexability, and representative pages; reproduced the deployment mismatch with raw HTML and Playwright.
+- Exact current state: GitHub `main` contains SEO guard commit `b5c1d9409b0bdcaeaffa3e1c3f25613a3aced043`, which deployed successfully. The direct Git deployment and `https://patentgogo.com/` both serve deployment marker `dpl_D91b6iJxHFc4oENrhSirQRWqfhc4` and pass the route-scope audits.
+- Completed work: preserved the dirty original checkout; cloned remote `main`; refreshed first-party GSC/GA4 evidence; verified sitemap, robots, metadata, schema, mobile rendering, demo-data indexability, and representative pages; reproduced the stale deployment mismatch; added a dependency-free regression audit; committed and pushed it; and verified the Git-connected production deployment and custom-domain switch.
 - Changed files: `package.json`, `scripts/audit-adsense-route-scope.mjs`, this handoff, and ignored local Goal Harness records.
-- Fresh validation evidence: custom domain fails loader absence on all seven non-reader HTML routes; direct GitHub deployment passes the 16-route dependency-free audit and 11-route browser audit; post-change syntax check, typecheck, production demo build, final-URL checks, and deployment-marker consistency checks pass.
-- Side effects and rollback: dependencies installed only in the isolated clone; no production, GSC, Vercel account, or original-checkout mutation yet. The future commit can be reverted normally if needed.
-- Blockers or risks: the custom domain may be attached to a stale/manual Vercel deployment. If a Git-connected push does not move it, Vercel alias/project inspection requires separate account-side authority.
+- Fresh validation evidence: GitHub Vercel status and deployment `6161372503` succeeded; both direct and custom hosts pass all 16 raw-route checks and all 11 browser checks; seven non-reader routes omit the loader, four reader-detail routes retain it after hydration, final URLs match, and the custom domain now serves the new deployment marker. Syntax check, typecheck, production demo build, and `git diff --check` also pass.
+- Side effects and rollback: pushed commit `b5c1d94`; Git-connected Vercel production deployment completed and moved the custom domain from `dpl_CYcYyheqww3gVhDDKwLXfXNuap4u` to `dpl_D91b6iJxHFc4oENrhSirQRWqfhc4`. Roll back by reverting `b5c1d94` and pushing the revert. The original dirty checkout remains untouched.
+- Blockers or risks: `npm ci` reported 14 repository vulnerabilities from GitHub after push and the local baseline audit reported four high-severity findings; dependency remediation was outside this SEO deployment recovery. Google PageSpeed API quota was exhausted, so responsive Playwright proof was used instead.
 - Deliberately not run or sent: no Vercel CLI/API mutation, no environment-variable change, no Turso write/backfill, no content rewrite, no GSC submission, and no AdSense account action.
-- Single next step: commit and push the three scoped files after the completed remote-drift verification, then verify the resulting GitHub-connected deployment and custom domain.
+- Single next step: record this completed checkpoint in the fleet SEO ledger, then continue with the next evidence-ranked site.
